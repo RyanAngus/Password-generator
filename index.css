@@ -1,3 +1,125 @@
 body {
     margin: 0;
 }
+
+
+
+#passBox {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+    background: #1F2937;
+}
+
+#titleBox {
+    position: absolute;
+    width: 354px;
+    height: 150px;
+    left: 52px;
+    top: 115px;
+    border: none;
+    overflow: hidden;   
+}
+
+#fontWhite {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 0px;
+    padding: 0px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+}
+
+#fontGreen {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    top: 50px;
+    bottom: 50px;
+    letter-spacing: -0.025em;
+    color: #4ADF86;
+
+}
+
+#subTitle {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 0px;
+    top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+    color: #D5D4D8;
+}
+
+#buttonStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    background: #10B981;
+    color: white;
+    font-weight: normal;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#passBoxLeft {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+
+
+}
+
+#passBoxRight {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+
+}
