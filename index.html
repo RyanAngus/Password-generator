@@ -1,27 +1,31 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="passBox">
-            <div id="titleBox">
-            <p id= "fontWhite">Generate a</p>
-            <p id="fontGreen">random password</p>
-                <p id="subTitle">Never use an insecure password again.</p>
-            </div>    
-            
-            <button id="buttonStyle">Generate Passwords</button>
 
-            <div id="passBoxLeft"> </div>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="index.css">
+</head>
 
-            <div id="passBoxRight"> </div>
+<body>
+  <div id="passBox">
+    <div id="titleBox">
+      <p id="fontWhite">Generate a</p>
+      <p id="fontGreen">random password</p>
+      <p id="subTitle">Never use an insecure password again.</p>
+    </div>
 
+    <button  onclick="generatePassLeft(), generatePassRight()" id="buttonStyle">Generate Passwords</button>
 
+    <div id="passBoxLeft"> </div>
 
-        </div>
-
+    <div id="passBoxRight"> </div>
 
 
-        <script src="index.js"></script>
-    </body>
+
+  </div>
+
+
+
+  <script src="index.js"></script>
+</body>
+
 </html>
