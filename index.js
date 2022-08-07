@@ -40,6 +40,13 @@ function generatePassRight() {
  
 };
 
+function reset() {
+
+  location.reload();
+  return false;
+
+}
+
 
 
 
