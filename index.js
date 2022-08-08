@@ -1,5 +1,5 @@
 let leftBox= document.getElementById("passBoxLeft");
-let rightBox= document.getElementById("passBoxRight");
+// let rightBox= document.getElementById("passBoxRight");
 let leftArray = [];
 let rightArray = [];
 var slider = document.getElementById("myRange");
@@ -36,20 +36,20 @@ function generatePassLeft() {
     };
 };
 
-function generatePassRight() {
+// function generatePassRight() {      CODE FOR HAVING TWO PASSWORD BOXES
 
-    rightBox.textContent = null;
+//     rightBox.textContent = null;
   
-  for (let i = 0; i < slider.value; i++) {
+//   for (let i = 0; i < slider.value; i++) {
 
-    let passWord = characters[~~(Math.random() * characters.length)];
+//     let passWord = characters[~~(Math.random() * characters.length)];
   
-    rightArray.unshift(passWord);
+//     rightArray.unshift(passWord);
 
-    rightBox.textContent += rightArray[0];
- }
+//     rightBox.textContent += rightArray[0];
+//  }
  
-};
+// };
 
 function reset() {
 
@@ -57,6 +57,14 @@ function reset() {
   return false;
 
 }
+
+const copyButton = document.getElementById("buttonStyle3");
+copyButton.addEventListener('click', (event) => {
+    // getting the text content that we want to copy
+    const content = document.getElementById("passBoxLeft").textContent;
+    // loading the content into our clipboard
+    navigator.clipboard.writeText(content);
+})
 
 
 
