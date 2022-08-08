@@ -11,15 +11,21 @@
       <p id="fontWhite">Generate a</p>
       <p id="fontGreen">random password</p>
       <p id="subTitle">Never use an insecure password again.</p>
+      <p id="passTitle">Choose a password length:</p>
+      <div class="slidecontainer">
+        <input type="range" min="5" max="50" value="0" class="slider" id="myRange">
+        <p id="demo"> </p>
+      </div>
+      
     </div>
 
     <button  onclick="generatePassLeft(), generatePassRight()" id="buttonStyle">Generate Passwords</button>
     <button id="buttonStyle2" onclick="reset()">Reset</button>
 
-    <div id="passBoxLeft"> </div>
+    <div id="passBoxLeft"> </div> 
 
-    <div id="passBoxRight"> </div>
 
+    <div id="passBoxRight"> </div> 
 
 
   </div>
